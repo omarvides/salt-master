@@ -18,3 +18,5 @@ packages
   packer build aws/ubuntu.json
   ```
 This will produce a new ami, after the build process is finished that will have the name ```salt-master-TIMESTAMP``` where `TIMESTAMP` will be replaced with the value of the timestamp at the moment the AMI was generated
+
+This repository contains a .drone.yml file that allows builds to be started in a drone.io server
